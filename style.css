@@ -1,0 +1,94 @@
+body {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(252, 239, 239);
+}
+
+button,
+input {
+  border: none;
+}
+
+input {
+  border-radius: 10px;
+  background-color: white;
+  outline: none;
+}
+
+.form {
+  width: 700px;
+  padding: 20px;
+  margin: 200px 0;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+}
+
+.form_label {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  margin: 30px 0 10px;
+}
+
+.form_input {
+  display: block;
+  font-size: 24px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#button {
+  display: block;
+  font-size: 24px;
+  margin: 30px auto;
+  padding: 10px 30px;
+  background-color: rgb(255, 97, 216);
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+#button:disabled {
+  background-color: rgb(247, 188, 232);
+}
+
+#button:hover {
+  background-color: rgb(252, 39, 199);
+}
+
+#button:disabled:hover {
+  background-color: rgb(247, 188, 232);
+}
+
+.record {
+  display: inline-block;
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  margin: 40px 20px;
+  font-size: 24px;
+}
+
+.recordtitle {
+  font-size: 28px;
+}
+
+.recordcontent {
+  font-style: italic;
+}
+
+.recordButton {
+  display: block;
+  width: 130px;
+  margin: 5px auto;
+  padding: 5px 15px;
+  background-color: rgb(255, 97, 216);
+  color: #fff;
+  border-radius: 20px;
+  font-size: 20px;
+}
